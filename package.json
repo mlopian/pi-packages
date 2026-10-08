@@ -1,0 +1,18 @@
+{
+  "name": "pi-packages",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Pi extensions",
+  "keywords": ["pi-package"],
+  "pi": {
+    "extensions": ["./codex-usage/extension.ts"]
+  },
+  "scripts": {
+    "test": "npm --prefix codex-usage test"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
