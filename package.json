@@ -6,10 +6,10 @@
   "description": "Pi extensions",
   "keywords": ["pi-package"],
   "pi": {
-    "extensions": ["./codex-usage/extension.ts"]
+    "extensions": ["./codex-usage/extension.ts", "./session-panel/extension.ts"]
   },
   "scripts": {
-    "test": "npm --prefix codex-usage test"
+    "test": "npm --prefix codex-usage test && npm --prefix session-panel test"
   },
   "peerDependencies": {
     "@earendil-works/pi-coding-agent": "*",

@@ -1,0 +1,17 @@
+{
+  "name": "pi-session-panel",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tabbed session inspector for Pi",
+  "pi": {
+    "extensions": ["./extension.ts"]
+  },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  }
+}
